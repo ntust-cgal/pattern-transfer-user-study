@@ -222,7 +222,10 @@ let S = null, items = [], idx = 0, answers = [], t0 = 0, cur = null, pending = n
 function uid(){ return "s" + Date.now().toString(36) + Math.random().toString(36).slice(2,7); }
 function shuffle(a, rnd){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(rnd()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
 function rngFrom(seed){ let x=seed>>>0; return ()=>{ x^=x<<13; x^=x>>>17; x^=x<<5; return ((x>>>0)%1e6)/1e6; }; }
-function go(id){ ["pIntro","pBg","pSeg","pQ","pDone"].forEach(p=>$("#"+p).classList.toggle("hide", p!==id)); }
+function go(id){
+  ["pIntro","pBg","pSeg","pQ","pDone"].forEach(p=>$("#"+p).classList.toggle("hide", p!==id));
+  window.scrollTo({ top: 0, behavior: "instant" });
+}
 
 function save(){ try{ localStorage.setItem(KEY, JSON.stringify({S, idx, answers})); }catch(e){} }
 function load(){ try{ return JSON.parse(localStorage.getItem(KEY)||"null"); }catch(e){ return null; } }
@@ -353,6 +356,7 @@ function render(it){
 
   $("#qNext").disabled = true;
   $("#qHint").textContent = two ? "兩題都要作答" : "";
+  window.scrollTo({ top: 0, behavior: "instant" });
   t0 = performance.now();
 }
 function openLb(src){ $("#lb img").src = src; $("#lb").classList.remove("hide"); }
