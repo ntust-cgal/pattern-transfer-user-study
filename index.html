@@ -44,6 +44,32 @@ select,input[type=text]{font:inherit;padding:8px 10px;border:1px solid var(--rul
 .ask{font-size:17px;color:var(--ink);margin:0 0 14px}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 .grid.two{grid-template-columns:repeat(2,1fr);max-width:840px}
+@media(max-width:1000px){
+  .wrap{padding:14px 12px 70px}
+  .card{padding:18px 14px}
+  .grid{grid-template-columns:repeat(2,1fr);gap:10px}
+  .ref img{width:96px;height:96px}
+  .ask{font-size:16px}
+  .scale{gap:8px}
+  .scale button{min-width:0;flex:1 1 30%;padding:12px 4px;font-size:13px}
+  button{padding:12px 20px}
+}
+/* 手機：六選一改成一欄，每張圖佔滿寬度才看得清材質細節 */
+@media(max-width:640px){
+  .grid{grid-template-columns:1fr;gap:12px}
+  .ref img{width:76px;height:76px}
+  .opt img{max-height:none}
+  /* 丙段只有兩張，並排才好比較，維持兩欄 */
+  .grid.two{grid-template-columns:repeat(2,1fr);gap:8px}
+}
+.zoom{position:absolute;top:6px;left:6px;z-index:2;width:32px;height:32px;padding:0;
+  border-radius:16px;background:rgba(255,255,255,.9);border:1px solid var(--rule);
+  font-size:15px;line-height:1;display:flex;align-items:center;justify-content:center}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]) .zoom{background:rgba(24,28,32,.9)}}
+#lb{position:fixed;inset:0;background:rgba(0,0,0,.9);z-index:60;display:flex;
+  align-items:center;justify-content:center;padding:14px;cursor:zoom-out}
+#lb img{max-width:96vw;max-height:88vh;object-fit:contain;background:#fff;border-radius:5px}
+#lb .cap{position:absolute;bottom:16px;left:0;right:0;text-align:center;color:#dfe4ea;font-size:14px}
 .opt{border:2px solid var(--rule);border-radius:6px;overflow:hidden;cursor:pointer;
   background:var(--mute);position:relative;transition:border-color .12s}
 .opt img{display:block;width:100%;aspect-ratio:1;object-fit:contain}
@@ -173,6 +199,8 @@ kbd{font:inherit;font-size:12.5px;background:var(--mute);border:1px solid var(--
 
 </div>
 
+<div id="lb" class="hide"><img alt=""><div class="cap">點任一處關閉</div></div>
+
 <script src="config.js"></script>
 <script>
 const CFG = window.CONFIG || {};
@@ -281,7 +309,9 @@ function render(it){
     ? "① 這兩張結果，彼此像不像？"
     : "哪一張結果最好？（材質像 ＋ 圖形清楚）";
   $("#qGrid").innerHTML = it.options.map(o =>
-    `<div class="opt" data-slot="${o.slot}"><img loading="eager" src="${o.img}" alt=""></div>`).join("");
+    `<div class="opt" data-slot="${o.slot}">
+       <button class="zoom" data-zoom="${o.img}" title="放大">⤢</button>
+       <img loading="eager" src="${o.img}" alt=""></div>`).join("");
 
   if (two) {
     // 丙段：圖只供觀看，兩題都在下方依序作答
@@ -302,11 +332,14 @@ function render(it){
     $("#qQ2").classList.add("hide"); $("#qQ3").classList.add("hide");
   }
 
-  $("#qGrid").onclick = two ? null : (e => {
+  $("#qGrid").onclick = e => {
+    const z = e.target.closest("[data-zoom]");
+    if (z) { e.stopPropagation(); openLb(z.dataset.zoom); return; }
+    if (two) return;
     const d = e.target.closest(".opt"); if(!d) return;
     [...$("#qGrid").children].forEach(x=>x.classList.remove("on"));
     d.classList.add("on"); cur.a1 = d.dataset.slot; check();
-  });
+  };
   if (two) $("#qGrid").querySelectorAll(".opt").forEach((el,i)=>{
     el.style.cursor = "default";
     el.insertAdjacentHTML("beforeend",
@@ -322,6 +355,10 @@ function render(it){
   $("#qHint").textContent = two ? "兩題都要作答" : "";
   t0 = performance.now();
 }
+function openLb(src){ $("#lb img").src = src; $("#lb").classList.remove("hide"); }
+$("#lb").onclick = () => $("#lb").classList.add("hide");
+addEventListener("keydown", e => { if(e.key==="Escape") $("#lb").classList.add("hide"); });
+
 function check(){
   const two = cur.it.type === "2afc";
   const ok = two ? (cur.a1 && cur.a2) : !!cur.a1;
