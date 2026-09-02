@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>材質轉印　視覺評估問卷</title>
+<style>
+:root{
+  --ink:#16191d; --ink2:#5c6570; --ink3:#8d959e;
+  --paper:#fff; --ground:#eef0f2; --rule:#d3d8dd; --mute:#f5f7f8;
+  --pick:#1f6f4a; --pick-bg:#e8f3ed; --warn:#a8412f;
+}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){
+  --ink:#e9edf1; --ink2:#a9b3bd; --ink3:#7d8792; --paper:#181c20; --ground:#0f1216;
+  --rule:#333b43; --mute:#1e242a; --pick:#5fbf90; --pick-bg:#173025; --warn:#e0785f;}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);
+  font:16px/1.75 "Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:22px 20px 80px}
+.card{background:var(--paper);border:1px solid var(--rule);border-radius:6px;
+  padding:26px 28px;margin-bottom:18px}
+h1{font-size:23px;margin:0 0 6px}
+h2{font-size:18px;margin:0 0 12px}
+p{margin:.6em 0;color:var(--ink2)}
+.lead{color:var(--ink);font-size:17px}
+b,strong{color:var(--ink)}
+button{font:inherit;padding:11px 26px;border:1px solid var(--rule);border-radius:5px;
+  background:var(--paper);color:var(--ink);cursor:pointer}
+button.primary{background:var(--ink);color:var(--paper);border-color:var(--ink);font-weight:600}
+button:disabled{opacity:.4;cursor:not-allowed}
+label{display:block;margin:.5em 0;color:var(--ink2)}
+select,input[type=text]{font:inherit;padding:8px 10px;border:1px solid var(--rule);
+  border-radius:5px;background:var(--paper);color:var(--ink);min-width:230px}
+.bar{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:1px solid var(--rule);
+  padding:9px 20px;display:flex;gap:16px;align-items:center;font-size:13.5px;color:var(--ink2)}
+.prog{flex:1;height:5px;background:var(--mute);border-radius:3px;overflow:hidden}
+.prog i{display:block;height:100%;background:var(--pick);width:0;transition:width .25s}
+.ref{display:flex;gap:20px;align-items:center;flex-wrap:wrap;margin-bottom:18px;
+  padding-bottom:16px;border-bottom:1px solid var(--rule)}
+.ref figure{margin:0;text-align:center}
+.ref img{width:132px;height:132px;object-fit:contain;background:var(--mute);
+  border:1px solid var(--rule);border-radius:5px;display:block}
+.ref figcaption{font-size:12.5px;color:var(--ink3);margin-top:5px}
+.ask{font-size:17px;color:var(--ink);margin:0 0 14px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.grid.two{grid-template-columns:repeat(2,1fr);max-width:840px}
+.opt{border:2px solid var(--rule);border-radius:6px;overflow:hidden;cursor:pointer;
+  background:var(--mute);position:relative;transition:border-color .12s}
+.opt img{display:block;width:100%;aspect-ratio:1;object-fit:contain}
+.opt:hover{border-color:var(--ink3)}
+.opt.on{border-color:var(--pick);background:var(--pick-bg)}
+.opt.on::after{content:"✓";position:absolute;top:8px;right:10px;color:var(--pick);
+  font-size:22px;font-weight:700}
+.scale{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 4px}
+.scale button{flex:1;min-width:120px;padding:14px 8px;line-height:1.4;font-size:14px}
+.scale button.on{border-color:var(--pick);background:var(--pick-bg);color:var(--pick);font-weight:600}
+.nav{display:flex;gap:12px;align-items:center;margin-top:22px}
+.hint{font-size:13px;color:var(--ink3)}
+.warn{color:var(--warn)}
+.hide{display:none!important}
+.q2{margin-top:22px;padding-top:18px;border-top:1px solid var(--rule)}
+.done{text-align:center;padding:50px 20px}
+.done .big{font-size:44px}
+ul{color:var(--ink2)} li{margin:.35em 0}
+kbd{font:inherit;font-size:12.5px;background:var(--mute);border:1px solid var(--rule);
+  border-radius:4px;padding:1px 6px}
+</style>
+</head>
+<body>
+
+<div class="bar hide" id="bar">
+  <span id="barSeg"></span>
+  <div class="prog"><i id="barFill"></i></div>
+  <span id="barNum"></span>
+</div>
+
+<div class="wrap">
+
+<!-- ── 說明 ── -->
+<div class="card" id="pIntro">
+  <h1>材質轉印　視覺評估問卷</h1>
+  <p class="lead">這份問卷想了解：把一種<b>材質</b>（例如某種繡法、皮革、金屬）呈現到一個<b>圖形</b>上時，哪一種結果看起來比較好。</p>
+  <p>每一題都會先給你兩張參考圖：</p>
+  <ul>
+    <li><b>參考材質</b> —— 希望呈現出來的質感</li>
+    <li><b>目標圖形</b> —— 希望保留的形狀與字樣</li>
+  </ul>
+  <p>然後從幾張結果裡選出你認為<b>最好</b>的一張。判斷時請同時考慮兩件事：</p>
+  <ul>
+    <li>材質看起來像不像參考材質（包含<b>底布的質感</b>，不只圖形內部）</li>
+    <li>圖形的形狀與字樣有沒有被保留、好不好辨認</li>
+  </ul>
+  <p class="hint">全部約 <b>114 題</b>，大約 20–30 分鐘。中途可以關掉，下次開會回到原處。沒有正確答案，依你的直覺判斷即可。</p>
+  <div class="nav"><button class="primary" onclick="go('pBg')">開始</button></div>
+</div>
+
+<!-- ── 基本資料 ── -->
+<div class="card hide" id="pBg">
+  <h2>基本資料</h2>
+  <p class="hint">只用於分組分析，不會識別個人。</p>
+  <label>年齡
+    <select id="fAge">
+      <option value="">請選擇</option>
+      <option>18–24</option><option>25–34</option><option>35–44</option>
+      <option>45–54</option><option>55 以上</option>
+    </select></label>
+  <label>是否有設計相關背景（就學或工作）
+    <select id="fDesign">
+      <option value="">請選擇</option>
+      <option value="yes">有</option><option value="no">沒有</option>
+    </select></label>
+  <label>使用設計軟體的經驗
+    <select id="fSw">
+      <option value="">請選擇</option>
+      <option value="none">沒有</option><option value="some">偶爾</option>
+      <option value="often">經常</option><option value="pro">專業使用</option>
+    </select></label>
+  <label>是否熟悉刺繡／織品工藝
+    <select id="fCraft">
+      <option value="">請選擇</option>
+      <option value="no">不熟悉</option><option value="some">略懂</option>
+      <option value="yes">熟悉</option>
+    </select></label>
+  <div class="nav">
+    <button class="primary" id="bgNext" disabled onclick="startTask()">開始作答</button>
+    <span class="hint" id="bgHint">四項都選好才能開始</span>
+  </div>
+</div>
+
+<!-- ── 段落分隔 ── -->
+<div class="card hide" id="pSeg">
+  <h2 id="segTitle"></h2>
+  <div id="segBody"></div>
+  <div class="nav"><button class="primary" onclick="afterSegIntro()">繼續</button></div>
+</div>
+
+<!-- ── 題目 ── -->
+<div class="card hide" id="pQ">
+  <div class="ref">
+    <figure><img id="qMat" alt="參考材質"><figcaption>參考材質</figcaption></figure>
+    <figure><img id="qGra" alt="目標圖形"><figcaption>目標圖形</figcaption></figure>
+    <div class="hint" id="qNote"></div>
+  </div>
+
+  <p class="ask" id="qAsk"></p>
+  <div class="grid" id="qGrid"></div>
+
+  <div class="q2 hide" id="qQ2">
+    <p class="ask" id="q2Ask"></p>
+    <div class="scale" id="q2Scale"></div>
+  </div>
+  <div class="q2 hide" id="qQ3">
+    <p class="ask" id="q3Ask"></p>
+    <div class="scale" id="q3Pick"></div>
+  </div>
+
+  <div class="nav">
+    <button class="primary" id="qNext" disabled onclick="nextQ()">下一題</button>
+    <span class="hint" id="qHint"></span>
+  </div>
+</div>
+
+<!-- ── 完成 ── -->
+<div class="card hide done" id="pDone">
+  <div class="big">✓</div>
+  <h2>完成了，謝謝你的協助</h2>
+  <p id="doneMsg"></p>
+  <p class="hint" id="doneId"></p>
+</div>
+
+</div>
+
+<script src="config.js"></script>
+<script>
+const CFG = window.CONFIG || {};
+const $ = s => document.querySelector(s);
+const KEY = "us_v2_state";
+
+const SEG_INTRO = {
+  "甲": ["第一部分", `<p>接下來每一題會看到 <b>6 張結果</b>，請選出你認為<b>最好</b>的一張。</p>
+    <p>提醒：同時看<b>材質像不像</b>（包含底布）與<b>圖形好不好辨認</b>。</p>`],
+  "乙": ["第二部分", `<p>形式與剛才相同：從 6 張結果裡選出最好的一張。</p>
+    <p class="hint">這一部分的題目難度分布較廣，有些會很接近，依直覺選即可。</p>`],
+  "丙": ["第三部分", `<p>最後一部分每題只有 <b>2 張</b>結果，要回答<b>兩個問題</b>：</p>
+    <ul><li>這兩張<b>彼此</b>像不像</li><li>硬要選的話，哪一張比較好（<b>不能選平手</b>）</li></ul>
+    <p class="hint">兩張看起來可能很接近，這是正常的。請依直覺作答。</p>`]
+};
+
+let S = null, items = [], idx = 0, answers = [], t0 = 0, cur = null, pending = null;
+
+function uid(){ return "s" + Date.now().toString(36) + Math.random().toString(36).slice(2,7); }
+function shuffle(a, rnd){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(rnd()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+function rngFrom(seed){ let x=seed>>>0; return ()=>{ x^=x<<13; x^=x>>>17; x^=x<<5; return ((x>>>0)%1e6)/1e6; }; }
+function go(id){ ["pIntro","pBg","pSeg","pQ","pDone"].forEach(p=>$("#"+p).classList.toggle("hide", p!==id)); }
+
+function save(){ try{ localStorage.setItem(KEY, JSON.stringify({S, idx, answers})); }catch(e){} }
+function load(){ try{ return JSON.parse(localStorage.getItem(KEY)||"null"); }catch(e){ return null; } }
+
+for (const f of ["fAge","fDesign","fSw","fCraft"])
+  $("#"+f).onchange = () => {
+    const ok = ["fAge","fDesign","fSw","fCraft"].every(x=>$("#"+x).value);
+    $("#bgNext").disabled = !ok;
+    $("#bgHint").textContent = ok ? "" : "四項都選好才能開始";
+  };
+
+fetch("items.json").then(r=>r.json()).then(d=>{
+  items = d;
+  const st = load();
+  if (st && st.S && st.idx < st.S.order.length) {
+    S = st.S; idx = st.idx; answers = st.answers || [];
+    $("#pIntro").innerHTML = `<h1>繼續上次的作答</h1>
+      <p class="lead">偵測到你之前答到第 <b>${idx+1}</b> 題（共 ${S.order.length} 題）。</p>
+      <div class="nav"><button class="primary" onclick="resume()">繼續作答</button>
+      <button onclick="restart()">重新開始</button></div>`;
+  }
+});
+
+function restart(){ localStorage.removeItem(KEY); location.reload(); }
+function resume(){ $("#bar").classList.remove("hide"); showQ(); }
+
+function startTask(){
+  const seed = Math.floor(Math.random()*2**31);
+  const rnd = rngFrom(seed);
+  const bySeg = {"甲":[], "乙":[], "丙":[]};
+  items.forEach((it,i)=>bySeg[it.seg].push(i));
+  let order = [], dupSet = [];
+  for (const s of ["甲","乙","丙"]) {
+    let g = bySeg[s].slice();
+    if (CFG.SHUFFLE_ITEMS) g = shuffle(g, rnd);
+    if (s === "甲") {
+      // 一致性檢核：挑最前面兩題，複製到**甲段後半的隨機位置**
+      // （不放到問卷最後 —— 那樣會在丙段之後突然跳回六張圖，受試者會察覺）
+      const picks = g.slice(0, 2);
+      dupSet = picks.slice();
+      const half = Math.floor(g.length / 2);
+      for (const q of picks) {
+        const at = half + Math.floor(rnd() * (g.length - half));
+        g.splice(at, 0, q);
+      }
+    }
+    order = order.concat(g);
+  }
+  S = { id: uid(), seed, order, dup: dupSet.length, dupSet,
+        bg: { age:$("#fAge").value, design:$("#fDesign").value,
+              sw:$("#fSw").value, craft:$("#fCraft").value } };
+  idx = 0; answers = []; save();
+  $("#bar").classList.remove("hide");
+  showQ();
+}
+
+let lastSeg = null;
+function showQ(){
+  if (idx >= S.order.length) return finish();
+  const it = items[S.order[idx]];
+  if (CFG.SHOW_SECTION_INTRO && it.seg !== lastSeg) {
+    pending = it; lastSeg = it.seg;
+    const [t,b] = SEG_INTRO[it.seg];
+    $("#segTitle").textContent = t; $("#segBody").innerHTML = b;
+    return go("pSeg");
+  }
+  render(it);
+}
+function afterSegIntro(){ render(pending); pending = null; }
+
+function render(it){
+  cur = { it, a1:null, a2:null };
+  go("pQ");
+  const n = S.order.length;
+  $("#barSeg").textContent = "第 " + it.seg + " 部分";
+  $("#barNum").textContent = (idx+1) + " / " + n;
+  $("#barFill").style.width = (idx/n*100) + "%";
+  $("#qMat").src = it.material; $("#qGra").src = it.graphic;
+
+  const two = it.type === "2afc";
+  $("#qGrid").className = "grid" + (two ? " two" : "");
+  $("#qAsk").textContent = two
+    ? "① 這兩張結果，彼此像不像？"
+    : "哪一張結果最好？（材質像 ＋ 圖形清楚）";
+  $("#qGrid").innerHTML = it.options.map(o =>
+    `<div class="opt" data-slot="${o.slot}"><img loading="eager" src="${o.img}" alt=""></div>`).join("");
+
+  if (two) {
+    // 丙段：圖只供觀看，兩題都在下方依序作答
+    $("#qAsk").textContent = "以下兩張結果：";
+    $("#qQ2").classList.remove("hide"); $("#qQ3").classList.remove("hide");
+    $("#q2Ask").textContent = "① 這兩張結果，彼此像不像？";
+    $("#q2Scale").innerHTML = ["幾乎一樣","有點像","說不上來","有點不同","明顯不同"]
+      .map((t,i)=>`<button data-v="${i+1}">${i+1}　${t}</button>`).join("");
+    $("#q3Ask").textContent = "② 硬要選的話，哪一張比較好？（不能選平手）";
+    $("#q3Pick").innerHTML = it.options.map((o,i)=>
+      `<button data-slot="${o.slot}">${i===0?"左邊":"右邊"}比較好</button>`).join("");
+    $("#q3Pick").onclick = e => {
+      const b = e.target.closest("button[data-slot]"); if(!b) return;
+      [...$("#q3Pick").children].forEach(x=>x.classList.remove("on"));
+      b.classList.add("on"); cur.a2 = b.dataset.slot; check();
+    };
+  } else {
+    $("#qQ2").classList.add("hide"); $("#qQ3").classList.add("hide");
+  }
+
+  $("#qGrid").onclick = two ? null : (e => {
+    const d = e.target.closest(".opt"); if(!d) return;
+    [...$("#qGrid").children].forEach(x=>x.classList.remove("on"));
+    d.classList.add("on"); cur.a1 = d.dataset.slot; check();
+  });
+  if (two) $("#qGrid").querySelectorAll(".opt").forEach((el,i)=>{
+    el.style.cursor = "default";
+    el.insertAdjacentHTML("beforeend",
+      `<div style="text-align:center;padding:6px 0;font-size:14px;color:var(--ink2)">${i===0?"左":"右"}</div>`);
+  });
+  if (two) $("#q2Scale").onclick = e => {
+    const b = e.target.closest("button[data-v]"); if(!b) return;
+    [...$("#q2Scale").children].forEach(x=>x.classList.remove("on"));
+    b.classList.add("on"); cur.a1 = b.dataset.v; check();
+  };
+
+  $("#qNext").disabled = true;
+  $("#qHint").textContent = two ? "兩題都要作答" : "";
+  t0 = performance.now();
+}
+function check(){
+  const two = cur.it.type === "2afc";
+  const ok = two ? (cur.a1 && cur.a2) : !!cur.a1;
+  $("#qNext").disabled = !ok;
+  $("#qHint").textContent = ok ? "" : (two ? "兩題都要作答" : "");
+}
+
+function nextQ(){
+  answers.push({ qid: cur.it.qid, seg: cur.it.seg, stratum: "",
+                 answer1: cur.a1 || "", answer2: cur.a2 || "",
+                 ms: Math.round(performance.now() - t0),
+                 dup: answers.some(a => a.qid === cur.it.qid) ? 1 : 0 });
+  idx++; save(); showQ();
+}
+
+function finish(){
+  $("#bar").classList.add("hide"); go("pDone");
+  $("#doneId").textContent = "編號 " + S.id;
+  const payload = { subject: S.id, ua: navigator.userAgent,
+    rows: [{qid:"_bg", seg:"bg", stratum:"",
+            answer1: JSON.stringify(S.bg), answer2: String(S.seed), ms:0}]
+           .concat(answers) };
+  if (!CFG.ENDPOINT) {
+    $("#doneMsg").innerHTML = "<b>本機測試模式</b>：結果沒有送出，已印在主控台。";
+    console.log(payload); return;
+  }
+  $("#doneMsg").textContent = "正在送出…";
+  fetch(CFG.ENDPOINT, { method:"POST", mode:"no-cors",
+      headers:{"Content-Type":"text/plain;charset=utf-8"},
+      body: JSON.stringify(payload) })
+    .then(()=>{ $("#doneMsg").textContent = "已送出，可以關閉視窗了。";
+                localStorage.removeItem(KEY); })
+    .catch(()=>{ $("#doneMsg").innerHTML =
+      '<span class="warn">送出失敗</span>　請把這個畫面截圖給研究者，或重新整理再試一次。'; });
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+# 原始 PNG（590 MB）—— 只留壓縮後的 WebP
+img_png/
+
+# 答案表絕不上傳
+key.json
+
+.DS_Store
+Thumbs.db

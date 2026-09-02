@@ -1,0 +1,3444 @@
+[
+ {
+  "qid": "q001",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q001_g.webp",
+  "material": "img/q001_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q001_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q001_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q001_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q001_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q001_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q001_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q002",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q002_g.webp",
+  "material": "img/q002_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q002_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q002_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q002_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q002_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q002_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q002_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q003",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q003_g.webp",
+  "material": "img/q003_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q003_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q003_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q003_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q003_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q003_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q003_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q004",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q004_g.webp",
+  "material": "img/q004_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q004_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q004_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q004_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q004_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q004_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q004_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q005",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q005_g.webp",
+  "material": "img/q005_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q005_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q005_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q005_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q005_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q005_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q005_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q006",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q006_g.webp",
+  "material": "img/q006_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q006_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q006_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q006_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q006_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q006_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q006_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q007",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q007_g.webp",
+  "material": "img/q007_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q007_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q007_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q007_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q007_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q007_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q007_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q008",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q008_g.webp",
+  "material": "img/q008_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q008_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q008_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q008_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q008_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q008_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q008_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q009",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q009_g.webp",
+  "material": "img/q009_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q009_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q009_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q009_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q009_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q009_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q009_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q010",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q010_g.webp",
+  "material": "img/q010_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q010_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q010_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q010_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q010_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q010_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q010_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q011",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q011_g.webp",
+  "material": "img/q011_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q011_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q011_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q011_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q011_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q011_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q011_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q012",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q012_g.webp",
+  "material": "img/q012_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q012_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q012_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q012_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q012_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q012_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q012_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q013",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q013_g.webp",
+  "material": "img/q013_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q013_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q013_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q013_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q013_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q013_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q013_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q014",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q014_g.webp",
+  "material": "img/q014_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q014_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q014_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q014_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q014_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q014_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q014_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q015",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q015_g.webp",
+  "material": "img/q015_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q015_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q015_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q015_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q015_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q015_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q015_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q016",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q016_g.webp",
+  "material": "img/q016_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q016_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q016_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q016_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q016_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q016_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q016_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q017",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q017_g.webp",
+  "material": "img/q017_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q017_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q017_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q017_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q017_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q017_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q017_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q018",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q018_g.webp",
+  "material": "img/q018_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q018_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q018_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q018_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q018_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q018_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q018_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q019",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q019_g.webp",
+  "material": "img/q019_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q019_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q019_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q019_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q019_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q019_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q019_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q020",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q020_g.webp",
+  "material": "img/q020_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q020_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q020_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q020_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q020_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q020_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q020_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q021",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q021_g.webp",
+  "material": "img/q021_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q021_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q021_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q021_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q021_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q021_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q021_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q022",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q022_g.webp",
+  "material": "img/q022_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q022_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q022_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q022_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q022_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q022_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q022_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q023",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q023_g.webp",
+  "material": "img/q023_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q023_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q023_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q023_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q023_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q023_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q023_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q024",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q024_g.webp",
+  "material": "img/q024_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q024_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q024_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q024_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q024_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q024_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q024_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q025",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q025_g.webp",
+  "material": "img/q025_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q025_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q025_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q025_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q025_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q025_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q025_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q026",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q026_g.webp",
+  "material": "img/q026_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q026_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q026_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q026_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q026_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q026_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q026_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q027",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q027_g.webp",
+  "material": "img/q027_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q027_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q027_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q027_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q027_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q027_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q027_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q028",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q028_g.webp",
+  "material": "img/q028_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q028_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q028_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q028_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q028_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q028_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q028_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q029",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q029_g.webp",
+  "material": "img/q029_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q029_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q029_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q029_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q029_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q029_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q029_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q030",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q030_g.webp",
+  "material": "img/q030_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q030_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q030_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q030_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q030_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q030_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q030_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q031",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q031_g.webp",
+  "material": "img/q031_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q031_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q031_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q031_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q031_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q031_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q031_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q032",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q032_g.webp",
+  "material": "img/q032_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q032_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q032_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q032_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q032_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q032_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q032_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q033",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q033_g.webp",
+  "material": "img/q033_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q033_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q033_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q033_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q033_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q033_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q033_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q034",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q034_g.webp",
+  "material": "img/q034_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q034_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q034_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q034_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q034_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q034_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q034_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q035",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q035_g.webp",
+  "material": "img/q035_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q035_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q035_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q035_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q035_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q035_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q035_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q036",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q036_g.webp",
+  "material": "img/q036_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q036_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q036_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q036_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q036_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q036_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q036_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q037",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q037_g.webp",
+  "material": "img/q037_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q037_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q037_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q037_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q037_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q037_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q037_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q038",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q038_g.webp",
+  "material": "img/q038_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q038_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q038_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q038_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q038_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q038_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q038_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q039",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q039_g.webp",
+  "material": "img/q039_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q039_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q039_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q039_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q039_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q039_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q039_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q040",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q040_g.webp",
+  "material": "img/q040_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q040_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q040_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q040_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q040_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q040_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q040_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q041",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q041_g.webp",
+  "material": "img/q041_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q041_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q041_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q041_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q041_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q041_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q041_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q042",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q042_g.webp",
+  "material": "img/q042_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q042_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q042_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q042_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q042_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q042_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q042_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q043",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q043_g.webp",
+  "material": "img/q043_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q043_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q043_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q043_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q043_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q043_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q043_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q044",
+  "seg": "甲",
+  "type": "6afc",
+  "graphic": "img/q044_g.webp",
+  "material": "img/q044_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q044_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q044_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q044_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q044_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q044_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q044_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q045",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q045_g.webp",
+  "material": "img/q045_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q045_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q045_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q045_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q045_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q045_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q045_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q046",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q046_g.webp",
+  "material": "img/q046_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q046_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q046_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q046_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q046_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q046_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q046_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q047",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q047_g.webp",
+  "material": "img/q047_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q047_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q047_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q047_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q047_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q047_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q047_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q048",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q048_g.webp",
+  "material": "img/q048_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q048_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q048_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q048_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q048_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q048_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q048_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q049",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q049_g.webp",
+  "material": "img/q049_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q049_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q049_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q049_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q049_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q049_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q049_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q050",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q050_g.webp",
+  "material": "img/q050_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q050_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q050_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q050_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q050_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q050_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q050_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q051",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q051_g.webp",
+  "material": "img/q051_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q051_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q051_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q051_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q051_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q051_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q051_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q052",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q052_g.webp",
+  "material": "img/q052_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q052_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q052_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q052_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q052_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q052_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q052_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q053",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q053_g.webp",
+  "material": "img/q053_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q053_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q053_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q053_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q053_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q053_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q053_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q054",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q054_g.webp",
+  "material": "img/q054_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q054_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q054_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q054_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q054_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q054_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q054_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q055",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q055_g.webp",
+  "material": "img/q055_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q055_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q055_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q055_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q055_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q055_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q055_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q056",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q056_g.webp",
+  "material": "img/q056_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q056_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q056_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q056_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q056_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q056_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q056_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q057",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q057_g.webp",
+  "material": "img/q057_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q057_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q057_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q057_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q057_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q057_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q057_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q058",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q058_g.webp",
+  "material": "img/q058_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q058_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q058_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q058_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q058_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q058_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q058_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q059",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q059_g.webp",
+  "material": "img/q059_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q059_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q059_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q059_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q059_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q059_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q059_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q060",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q060_g.webp",
+  "material": "img/q060_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q060_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q060_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q060_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q060_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q060_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q060_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q061",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q061_g.webp",
+  "material": "img/q061_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q061_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q061_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q061_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q061_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q061_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q061_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q062",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q062_g.webp",
+  "material": "img/q062_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q062_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q062_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q062_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q062_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q062_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q062_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q063",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q063_g.webp",
+  "material": "img/q063_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q063_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q063_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q063_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q063_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q063_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q063_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q064",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q064_g.webp",
+  "material": "img/q064_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q064_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q064_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q064_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q064_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q064_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q064_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q065",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q065_g.webp",
+  "material": "img/q065_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q065_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q065_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q065_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q065_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q065_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q065_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q066",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q066_g.webp",
+  "material": "img/q066_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q066_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q066_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q066_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q066_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q066_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q066_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q067",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q067_g.webp",
+  "material": "img/q067_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q067_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q067_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q067_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q067_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q067_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q067_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q068",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q068_g.webp",
+  "material": "img/q068_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q068_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q068_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q068_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q068_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q068_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q068_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q069",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q069_g.webp",
+  "material": "img/q069_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q069_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q069_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q069_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q069_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q069_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q069_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q070",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q070_g.webp",
+  "material": "img/q070_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q070_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q070_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q070_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q070_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q070_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q070_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q071",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q071_g.webp",
+  "material": "img/q071_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q071_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q071_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q071_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q071_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q071_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q071_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q072",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q072_g.webp",
+  "material": "img/q072_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q072_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q072_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q072_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q072_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q072_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q072_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q073",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q073_g.webp",
+  "material": "img/q073_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q073_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q073_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q073_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q073_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q073_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q073_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q074",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q074_g.webp",
+  "material": "img/q074_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q074_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q074_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q074_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q074_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q074_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q074_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q075",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q075_g.webp",
+  "material": "img/q075_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q075_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q075_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q075_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q075_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q075_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q075_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q076",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q076_g.webp",
+  "material": "img/q076_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q076_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q076_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q076_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q076_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q076_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q076_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q077",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q077_g.webp",
+  "material": "img/q077_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q077_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q077_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q077_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q077_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q077_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q077_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q078",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q078_g.webp",
+  "material": "img/q078_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q078_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q078_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q078_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q078_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q078_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q078_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q079",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q079_g.webp",
+  "material": "img/q079_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q079_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q079_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q079_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q079_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q079_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q079_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q080",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q080_g.webp",
+  "material": "img/q080_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q080_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q080_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q080_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q080_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q080_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q080_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q081",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q081_g.webp",
+  "material": "img/q081_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q081_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q081_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q081_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q081_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q081_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q081_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q082",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q082_g.webp",
+  "material": "img/q082_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q082_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q082_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q082_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q082_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q082_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q082_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q083",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q083_g.webp",
+  "material": "img/q083_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q083_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q083_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q083_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q083_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q083_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q083_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q084",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q084_g.webp",
+  "material": "img/q084_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q084_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q084_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q084_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q084_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q084_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q084_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q085",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q085_g.webp",
+  "material": "img/q085_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q085_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q085_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q085_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q085_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q085_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q085_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q086",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q086_g.webp",
+  "material": "img/q086_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q086_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q086_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q086_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q086_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q086_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q086_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q087",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q087_g.webp",
+  "material": "img/q087_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q087_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q087_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q087_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q087_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q087_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q087_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q088",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q088_g.webp",
+  "material": "img/q088_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q088_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q088_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q088_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q088_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q088_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q088_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q089",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q089_g.webp",
+  "material": "img/q089_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q089_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q089_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q089_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q089_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q089_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q089_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q090",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q090_g.webp",
+  "material": "img/q090_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q090_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q090_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q090_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q090_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q090_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q090_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q091",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q091_g.webp",
+  "material": "img/q091_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q091_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q091_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q091_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q091_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q091_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q091_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q092",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q092_g.webp",
+  "material": "img/q092_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q092_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q092_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q092_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q092_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q092_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q092_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q093",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q093_g.webp",
+  "material": "img/q093_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q093_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q093_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q093_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q093_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q093_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q093_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q094",
+  "seg": "乙",
+  "type": "6afc",
+  "graphic": "img/q094_g.webp",
+  "material": "img/q094_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q094_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q094_b.webp"
+   },
+   {
+    "slot": "c",
+    "img": "img/q094_c.webp"
+   },
+   {
+    "slot": "d",
+    "img": "img/q094_d.webp"
+   },
+   {
+    "slot": "e",
+    "img": "img/q094_e.webp"
+   },
+   {
+    "slot": "f",
+    "img": "img/q094_f.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q095",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q095_g.webp",
+  "material": "img/q095_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q095_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q095_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q096",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q096_g.webp",
+  "material": "img/q096_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q096_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q096_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q097",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q097_g.webp",
+  "material": "img/q097_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q097_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q097_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q098",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q098_g.webp",
+  "material": "img/q098_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q098_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q098_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q099",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q099_g.webp",
+  "material": "img/q099_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q099_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q099_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q100",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q100_g.webp",
+  "material": "img/q100_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q100_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q100_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q101",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q101_g.webp",
+  "material": "img/q101_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q101_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q101_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q102",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q102_g.webp",
+  "material": "img/q102_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q102_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q102_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q103",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q103_g.webp",
+  "material": "img/q103_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q103_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q103_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q104",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q104_g.webp",
+  "material": "img/q104_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q104_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q104_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q105",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q105_g.webp",
+  "material": "img/q105_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q105_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q105_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q106",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q106_g.webp",
+  "material": "img/q106_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q106_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q106_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q107",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q107_g.webp",
+  "material": "img/q107_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q107_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q107_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q108",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q108_g.webp",
+  "material": "img/q108_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q108_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q108_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q109",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q109_g.webp",
+  "material": "img/q109_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q109_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q109_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q110",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q110_g.webp",
+  "material": "img/q110_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q110_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q110_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q111",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q111_g.webp",
+  "material": "img/q111_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q111_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q111_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q112",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q112_g.webp",
+  "material": "img/q112_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q112_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q112_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q113",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q113_g.webp",
+  "material": "img/q113_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q113_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q113_b.webp"
+   }
+  ]
+ },
+ {
+  "qid": "q114",
+  "seg": "丙",
+  "type": "2afc",
+  "graphic": "img/q114_g.webp",
+  "material": "img/q114_m.webp",
+  "options": [
+   {
+    "slot": "a",
+    "img": "img/q114_a.webp"
+   },
+   {
+    "slot": "b",
+    "img": "img/q114_b.webp"
+   }
+  ]
+ }
+]
