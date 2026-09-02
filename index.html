@@ -115,6 +115,9 @@ kbd{font:inherit;font-size:12.5px;background:var(--mute);border:1px solid var(--
       <option value="none">沒有</option><option value="some">偶爾</option>
       <option value="often">經常</option><option value="pro">專業使用</option>
     </select></label>
+  <label>稱呼（選填）
+    <input type="text" id="fName" maxlength="30" placeholder="不填也可以">
+    <span class="hint">僅用於致謝與追蹤是否已作答，分析時不使用</span></label>
   <label>是否熟悉刺繡／織品工藝
     <select id="fCraft">
       <option value="">請選擇</option>
@@ -241,8 +244,9 @@ function startTask(){
     order = order.concat(g);
   }
   S = { id: uid(), seed, order, dup: dupSet.length, dupSet,
-        bg: { age:$("#fAge").value, design:$("#fDesign").value,
-              sw:$("#fSw").value, craft:$("#fCraft").value } };
+        bg: { name:$("#fName").value.trim(), age:$("#fAge").value,
+              design:$("#fDesign").value, sw:$("#fSw").value,
+              craft:$("#fCraft").value } };
   idx = 0; answers = []; save();
   $("#bar").classList.remove("hide");
   showQ();
@@ -335,7 +339,7 @@ function nextQ(){
 
 function finish(){
   $("#bar").classList.add("hide"); go("pDone");
-  $("#doneId").textContent = "編號 " + S.id;
+  $("#doneId").textContent = (S.bg.name ? S.bg.name + "　" : "") + "編號 " + S.id;
   const payload = { subject: S.id, ua: navigator.userAgent,
     rows: [{qid:"_bg", seg:"bg", stratum:"",
             answer1: JSON.stringify(S.bg), answer2: String(S.seed), ms:0}]
